@@ -157,7 +157,7 @@ font-family: 'Poppins', sans-serif;
 }
 /* section 1 ended */
 /* section 3 started */
-/* .banner-title-two{
+.banner-title-two{
     text-align: center;
 }
 .banner-title-two h3{
@@ -167,8 +167,262 @@ font-family: 'Poppins', sans-serif;
 }
 .banner-title-two p{
     color: var(--primary-color);
-} */
+}
+.map{
+    margin-top: 43px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+.map img{
+    width: 80px;
+    
+}
+.map h4{
+    font-size: 24px;
+    padding: 16px;
+}
+.map p{
+    padding: 10px;
+}
+.map-one h4 {
+    padding: 10px;
+} 
+.map-one p{
+    padding: 5px;
+}
+.map-one {
+    width: 570px;
+    height: 280px;
+    background-color: rgb(255, 251, 247);
+    border-radius: 10px;
+    padding: 40px;
+}
+.map-two{
+    width: 570px;
+    height: 280px;
+    background-color: rgb(244, 253, 255);
+    border-radius: 10px;
+    padding: 40px;
+}
+.map-three{
+    width: 570px;
+    height: 280px;
+    background-color: rgb(254, 246, 246);
+    border-radius: 10px;
+    padding: 40px;
+}
 /* section 3 ended */
+/* section 4 start */
+.banner-four{
+    margin-bottom: 48px;
+}
+.banner-three h3{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.banner-three p{
+    color: var(--primary-color);
+}
+.photo{
+    margin-bottom: 48px;
+    text-align: center;
+}
+.background-1{
+    background-image:url("../Images/Group\ 39.png") ;
+    height: 600px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 150px;
+    position: relative;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+.font-text{
+    background-color: rgba(255, 248, 245 ,0.5) ;
+    height: 390px;
+    width: 580px;
+    position: absolute;
+    top: 80px;
+    left: 900px;
+    border-radius: 12px;
+}
+.font-text p{
+    display: inline;
+    padding: 10px;  
+}
+.font-text i{
+    color: var(--primary-background-color);
+    padding: 10px;
+}
+.font-text h4{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.font-text p{
+    padding-left: 20px;
+}
+.font-text h3{
+    font-size: 20px;
+    margin-left: 30px;
+    color: var(--primary-background-color);
+}
+ .book-now{
+    font-size: 20px;
+    padding: 14px 24px;
+    margin-left: 30px;
+    background-color: var(--primary-background-color);
+    border: none;
+    color: #ffffff;
+    border-radius: 10px;
+}
+.background-2{
+    background-image: url("../Images/Group\ 40.png");
+    height: 600px;
+    width: 1600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 150px;
+    position: relative;
+    border-radius: 12px;
+    margin-bottom: 24px;
+}
+.font-text-1{
+    background-color: rgba(255, 248, 245 ,0.5) ;
+    height: 390px;
+    width: 580px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    border-radius: 12px;
+}
+.font-text-1 p{
+    display: inline;
+    padding: 10px;  
+}
+.font-text-1 i{
+    color: var(--primary-background-color);
+    padding: 10px;
+}
+.font-text-1 h4{
+    font-size: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.font-text-1 p{
+    padding-left: 20px;
+}
+.font-text-1 h3{
+    font-size: 20px;
+    margin-left: 30px;
+    color: var(--primary-background-color);
+}
+#booking{
+    /* margin: 28px auto; */
+    margin-top: 70px;
+   margin-left: 900px;
+   margin-bottom: 50px;
+}
+/* section 4 ended */
+/* section 5 started */
+/* .banner-four{
+
+} */
+.banner-title-four{
+    display: flex;
+    margin-left: 150px;
+    
+}
+.banner-four video {
+    width: 710px;
+    height: 524px;
+    margin-left:250px ;
+    margin-top: -82px;
+    border-radius:12px ;
+}
+.text-section{
+    width: 600px;
+}
+.text-section h3{
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+.text-section p{
+    color: var(--primary-color);
+    line-height: 2rem;
+}
+.text-section ul li{
+    margin-left: 30px;
+    width: 400;
+}
+/* section 5 ended */
+/* last section */
+.last-section{
+    display: flex;
+    margin-left: 350px;
+    gap :150px;
+    position:relative;  
+}
+.border{
+    border:1px solid #ff5400;
+    border-radius: 12px;
+    padding-right: 40px;
+    height: 450px;
+}
+.border h4{
+    padding: 40px 0px 15px 40px;
+}
+.border p{
+    padding: 0px 0px 15px 40px;
+    color: var(--primary-color);
+}
+.hori{
+    width: 90%;
+    margin-left: 40px;
+}
+.border input {
+    margin-left: 40px;
+    background-color: #f3f3f3;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 16px 150px 16px 20px;
+    margin-bottom: 10px;
+}
+#happe{
+    padding:14px 277px 14px 277px;
+    cursor: pointer;
+    padding-left: 12px;
+    margin-left: 40px;
+    background-color: #ff5400;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    color: white;
+}
+.skew{
+    background-image: url("../Images/Rectangle\ 8\ \(1\).png");
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.mango{
+    width: 304px;
+    height: 120px;
+    background-color: #ff5400;
+    position: absolute;
+    top: 240px;
+    left: 350px;
+    transform: rotate(-20deg);
+}
 /* main section styles end */
 
 /* footer section start */
@@ -179,6 +433,7 @@ font-family: 'Poppins', sans-serif;
     height: 612px;
     width: 100%;
     background-color: rgb(243, 243, 243);
+    margin-top: 100px;
 }
 .footer-title{
     display: flex;
@@ -225,7 +480,7 @@ hr{
 
 /* resumi section style */
 @media screen and (max-width:600px) {
-    .heading-banner ,.banner{
+    .heading-banner ,.banner {
         flex-direction: column;
     }
     .heading-back-img{
@@ -280,6 +535,141 @@ hr{
     .banner-title h3{
         font-size: 20px;
     }
+    .footer{
+        padding: 0px;
+        height: 410px;
+    }
+    .footer-title{
+        padding-top:50px ;
+        /* margin-top: 50px; */
+        margin-left: 80px;
+        gap:3px;
+    }
+    .footer-title img{
+        width: 28px;
+        height: 33px;
+    }
+    .footer-title h3{
+        font-size: 21px;
+    }
+    .map{
+        flex-direction: column;
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+    .map-one {
+        width: 335px;
+        height: 280px;
+        background-color: rgb(255, 251, 247);
+        border-radius: 10px;
+        padding: 8px;
+    }
+    .map-two{
+        width: 335px;
+        height: 280px;
+        background-color: rgb(244, 253, 255);
+        border-radius: 10px;
+        padding: 8px;
+    }
+    .map-three{
+        width: 335px;
+        height: 280px;
+        background-color: rgb(254, 246, 246);
+        border-radius: 10px;
+        padding: 8px;
+    }
+    .map h4{
+        padding: 2px;
+    }
+    .banner-three h3{
+        font-size: 20px;
+        font-weight: 800;
+        /* margin-bottom: 24px; */
+    }
+    .banner-three p{
+        padding: 1px;
+        width: 100%;
+    }
+    .font-text{
+        background-color: rgba(255, 248, 245 ,0.5) ;
+    height: 350px;
+    width: 303px;
+    position: absolute;
+    top: 200px;
+    right: 50;
+    bottom: 50;
+    left: 30px;
+    border-radius: 12px;
+    }
+    .background-1{
+        width: 370px;
+        /* s */
+        margin-left: 10px;
+        position: relative;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+    .background-2{
+        /* background-image: url("../Images/Group\ 40.png"); */
+        /* height: 600px; */
+        width: 370px;
+        /* background-repeat: no-repeat; */
+        /* background-size: cover; */
+        margin-left: 10px;
+        position: relative;
+        border-radius: 12px;
+        margin-bottom: 20px;
+    }
+    .font-text-1{
+        background-color: rgba(255, 248, 245 ,0.5) ;
+        height: 350px;
+        width: 303px;
+        position: absolute;
+        top: 200px;
+        left: 30px;
+        border-radius: 12px;
+    }
+    #booking{
+        margin-left: 100px;
+    }
+    .banner-title-four{
+        flex-direction: column;
+        margin-left: 10px;
+        
+    }
+    .banner-four video {
+        width: 90%;
+        height: 100%;
+        margin-left:0px ;
+        /* margin-top: -82px; */
+        border-radius:12px ;
+        padding-top: 80px;
+    }
+    .video-section video{
+        margin-left: 1px;
+    }
+    .text-section{
+        width: 600px;
+    }
+    .text-section h3{
+        font-size: 20px;
+        line-height: 30px;
+        /* margin-bottom: 24px; */
+        
+    }
+    .text-section p{
+        color: var(--primary-color);
+        line-height: 1rem;
+        font-size: 14px;
+        width: 300px;
+        padding-right: 15px;
+        
+    }
+    .text-section ul li{
+        width: 300px;
+    }
+    
+    
 
 }
 @media screen and (min-width:600px) and (max-width:992px) {
