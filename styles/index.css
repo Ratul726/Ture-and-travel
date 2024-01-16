@@ -453,6 +453,7 @@ font-family: 'Poppins', sans-serif;
     height: 120px;
     background-color: #ff5400;
     position: absolute;
+    border-radius: 12px;
     top: 252px;
     left: 350px;
     transform: rotate(-20deg);
