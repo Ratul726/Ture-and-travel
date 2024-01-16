@@ -156,6 +156,31 @@ font-family: 'Poppins', sans-serif;
     margin-left: 105px;
 }
 /* section 1 ended */
+/* section tow start */
+.ttt{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.maldive{
+    display: flex;
+    margin-left: 360px;
+    margin-top: 50px;
+    gap: 50px;
+}
+.aus{
+    display: flex;
+    margin-left: 360px;
+    margin-top: 50px;
+    gap: 50px;
+}
+.ind{
+    display: flex;
+    margin-left: 360px;
+    margin-top: 50px;
+    gap: 70px;
+}
+
+/* section two end */
 /* section 3 started */
 .banner-title-two{
     text-align: center;
@@ -337,15 +362,9 @@ font-family: 'Poppins', sans-serif;
 .banner-title-four{
     display: flex;
     margin-left: 150px;
-    
+    gap: 250px;
 }
-.banner-four video {
-    width: 710px;
-    height: 524px;
-    margin-left:250px ;
-    margin-top: -82px;
-    border-radius:12px ;
-}
+
 .text-section{
     width: 600px;
 }
@@ -358,10 +377,24 @@ font-family: 'Poppins', sans-serif;
     color: var(--primary-color);
     line-height: 2rem;
 }
+
 .text-section ul li{
     margin-left: 30px;
     width: 400;
 }
+
+.video-section{
+    background-image: url("../Images/Group\ 40089.png");
+    height: 424px;
+     width: 610px;
+}
+
+.video-section p{
+    text-align: center;
+    line-height: 224px;
+    font-size: 24px;
+    color: #f3f3f3;
+} 
 /* section 5 ended */
 /* last section */
 .last-section{
@@ -419,9 +452,19 @@ font-family: 'Poppins', sans-serif;
     height: 120px;
     background-color: #ff5400;
     position: absolute;
-    top: 240px;
+    top: 252px;
     left: 350px;
     transform: rotate(-20deg);
+    text-align: center;
+}
+.mango p{
+    color: #f3f3f3;
+    padding:15px ;
+}
+.mango h3{
+    font-size: 2rem;
+    padding:5px ;
+    color: white;
 }
 /* main section styles end */
 
@@ -433,7 +476,7 @@ font-family: 'Poppins', sans-serif;
     height: 612px;
     width: 100%;
     background-color: rgb(243, 243, 243);
-    margin-top: 100px;
+    margin-top: 20px;
 }
 .footer-title{
     display: flex;
@@ -538,6 +581,7 @@ hr{
     .footer{
         padding: 0px;
         height: 410px;
+        
     }
     .footer-title{
         padding-top:50px ;
@@ -601,6 +645,9 @@ hr{
     left: 30px;
     border-radius: 12px;
     }
+    .banner-title-two h3{
+       font-size: 20px; 
+    }
     .background-1{
         width: 370px;
         /* s */
@@ -610,11 +657,9 @@ hr{
         margin-bottom: 20px;
     }
     .background-2{
-        /* background-image: url("../Images/Group\ 40.png"); */
-        /* height: 600px; */
+       
         width: 370px;
-        /* background-repeat: no-repeat; */
-        /* background-size: cover; */
+       
         margin-left: 10px;
         position: relative;
         border-radius: 12px;
@@ -632,46 +677,87 @@ hr{
     #booking{
         margin-left: 100px;
     }
-    .banner-title-four{
+    .last-section{
         flex-direction: column;
-        margin-left: 10px;
+        margin-left: 0px;
+        padding: 35px;
+        gap :10px;
+        /* position:relative;   */
+    }
+    .border input {
+        /* margin-left: 4px; */
+        
+        
+        padding: 16px 65px 16px 2px;
+        margin-bottom: 5px;
+    }#happe{
+        padding:14px 100px 14px 27px;
+        cursor: pointer;
+     
+    }
+    .mango{
+        width: 204px;
+        height: 70px;
+        border-radius: 12px;
+        position: absolute;
+        top: 272px;
+        left: 105px;
+        transform: rotate(-20deg);
+        text-align: center;
+    }
+    .mango p{
+        color: #f3f3f3;
         
     }
-    .banner-four video {
-        width: 90%;
-        height: 100%;
-        margin-left:0px ;
-        /* margin-top: -82px; */
-        border-radius:12px ;
-        padding-top: 80px;
+    .mango h3{
+        font-size: 16px;
+        line-height: 2px;
+        color: white;
     }
-    .video-section video{
+    .maldive{
+        flex-direction: column;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .aus{
+        flex-direction: column;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .ind{
+        flex-direction: column;
+        margin-left: 0px;
+        width: 100%;
+    }
+    .banner-title-four{
+        flex-direction: column;
         margin-left: 1px;
+        gap: 25px;
     }
     .text-section{
-        width: 600px;
+      width:350px ;  
     }
     .text-section h3{
         font-size: 20px;
-        line-height: 30px;
-        /* margin-bottom: 24px; */
-        
+        padding-left: 15px;
     }
     .text-section p{
-        color: var(--primary-color);
-        line-height: 1rem;
-        font-size: 14px;
-        width: 300px;
-        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .video-section{
         
+        height: 224px;
+         width: 356px;
+         border-radius: 12px;
+         margin-left: 12px;
+         margin-bottom: 1px;
+         /* padding-left: 12px; */
     }
-    .text-section ul li{
-        width: 300px;
-    }
+}
     
     
 
-}
+
 @media screen and (min-width:600px) and (max-width:992px) {
     .heading-banner {
         flex-direction: column;
